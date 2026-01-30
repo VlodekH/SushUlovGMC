@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  parser:
+    build: .
+    volumes:
+      - feed_data:/data
+    restart: always
+
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - feed_data:/usr/share/nginx/html
+    restart: always
+
+volumes:
+  feed_data:
