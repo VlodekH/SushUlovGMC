@@ -8,7 +8,7 @@ Projekt działa w kontenerze Docker, codziennie pobiera aktualne menu ze strony 
 
 - **Automatyzacja:** Skrypt uruchamia się automatycznie co 24 godziny.
 - **Inteligentny Parsing:** Wykorzystuje dane JSON (`__NEXT_DATA__`) zaszyte w strukturze strony (Next.js), co zapewnia 100% dokładność cen i nazw.
-- **Mapowanie Kategorii:** Automatycznie przypisuje odpowiednie ID kategorii Google (np. `423` dla zestawów, `3048` dla Spring Rolls).
+- **Mapowanie Kategorii:** Automatycznie przypisuje odpowiednie ID kategorii Google.
 - **Formatowanie:**
   - Korekta cen (zamiana groszy na złotówki).
   - Budowanie poprawnych linków URL do produktów.
@@ -30,5 +30,4 @@ Projekt działa w kontenerze Docker, codziennie pobiera aktualne menu ze strony 
 
 1. **Sklonuj repozytorium:**
    ```bash
-   git clone [https://github.com/TWOJA_NAZWA_UZYTKOWNIKA/sushi-ulov-feed.git](https://github.com/TWOJA_NAZWA_UZYTKOWNIKA/sushi-ulov-feed.git)
-   cd sushi-ulov-feed
+   git clone https://github.com/VlodekH/SushUlovGMC.git
