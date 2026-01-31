@@ -226,4 +226,4 @@ if __name__ == "__main__":
     else:
         while True:
             run_parser()
-            time.sleep(86400)
+            time.sleep(3600) # skrypt aktualizuje dane co godzinę
